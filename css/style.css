@@ -8,7 +8,7 @@
 
 .box {
     background-color: red;
-    height: 100px;
+    
 }
 /* -------------        COLORS  */
 
@@ -30,6 +30,12 @@
 .h-300 {
     height: 300px;
 }
-.h-100 {
+.h_100 {
     height: 100px;
+}
+.h_200 {
+    height: 200px;
+}
+.h_400 {
+    height: 400px;
 }
