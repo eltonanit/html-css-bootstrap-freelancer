@@ -39,3 +39,10 @@
 .h_400 {
     height: 400px;
 }
+
+/* ------------------- BOX IMG */
+.box img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
