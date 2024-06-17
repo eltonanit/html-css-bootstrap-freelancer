@@ -9,6 +9,7 @@
 .box {
     background-color: red;
     
+    
 }
 /* -------------        COLORS  */
 
@@ -45,4 +46,26 @@
     width: 300px;
     height: auto;
     object-fit: cover;
+}
+
+.lines:after,
+.lines:before { 
+    content:'';
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.black-lines:after,
+.black-lines:before {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: black;
+    display: inline-block;
+    vertical-align: middle;
+
 }
